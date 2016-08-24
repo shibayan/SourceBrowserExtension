@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>SourceBrowser</id>
+        <title>SourceBrowser</title>
+        <version>1.0.0.0</version>
+        <authors>shibayan</authors>
+        <projectUrl>https://github.com/shibayan/SourceBrowserExtension</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>SourceBrowser (https://github.com/KirillOsenkov/SourceBrowser) for Azure Site Extension</description>
+        <tags>csharp vb source browser</tags>
+    </metadata>
+    <files>
+        <file src="**" target="content" />
+    </files>
+</package>
