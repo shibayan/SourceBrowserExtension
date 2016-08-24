@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<configuration xmlns:xdt="http://schemas.microsoft.com/XML-Document-Transform">
+  <system.webServer>
+    <runtime xdt:Transform="Insert">
+      <environmentVariables>
+        <add name="APPSETTING_COMMAND" value="%XDT_EXTENSIONPATH%\deploy.cmd" />
+        <add name="SOURCEBROWSER_HOME" value="%XDT_EXTENSIONPATH%\Microsoft.SourceBrowser.1.0.12\tools" />
+      </environmentVariables>
+    </runtime>
+  </system.webServer>
+</configuration>
